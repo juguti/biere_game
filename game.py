@@ -20,7 +20,7 @@ class Glass:
         self.moussing = False
         self.volume_mousse = 0
     def get_voulume_mousse(self):
-        self.volume_mousse_final = int(randint(20,70)/100 *self.volume)
+        self.volume_mousse_final = int(randint(20,50)/100 *self.volume)
     def draw(self):
         # affiche le niveau d'alcool
         self.point = int(self.y + self.height - self.height * self.pourcent_calcul())
